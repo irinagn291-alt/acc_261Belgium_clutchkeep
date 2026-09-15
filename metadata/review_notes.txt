@@ -1,0 +1,15 @@
+The app does not request camera, microphone, photos, or location. The camera usage description in the build settings is: This app does not use the camera. That prompt never appears.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Clutchkeep is a yard book for backyard keepers with named hens. A tap on the roost logs one egg so yield, mash cost, and Health score update. It is for small keepers who need a roost, not farm software.
+
+No credentials or demo account are needed. Cold launch opens three onboarding pages. The first is titled The roost is the yard book and says Named hens sit the roost. Tap a nest to log one egg. There is no flock-size field. Tap Next. The second is titled Tap a hen, write a credit and says Each tap writes one Credit on that hen. Yield is the fold of those eggs. Tap Next. The third is titled Pullet, then Layer and says The first Credit writes a LayMark and she becomes a Layer. Cull drops her from tomorrow's count. Tap Continue, or tap Skip on any page. Flock then opens. If the roost is empty the headline is No flock yet. and the line is Add the birds first. Tap Add a hen, type a Hen name, and tap Add a hen. The next headline is No credits yet. and the line is Tap a hen to log an egg. Tap a named hen on the roost to write one Credit. The first Credit writes a LayMark and she becomes a Layer. The tiles Credits, Cost / egg, and Health open Production, Mash, and Dose. The Yard page control also switches among Production, Mash, and Dose. On Mash, enter Kilograms and Cost and tap Log mash. On Dose, choose Hen, enter Note, and tap Note dose. Touch and hold a hen, tap Cull from the roost, then confirm Cull from the roost or Keep her. The toolbar control Pullet then Layer opens that sheet. Tap Analytics to read Yield, Cost versus yield, Health, Eggs / Layer, Cost per egg, FCR, 7-day predict, and Pullet then Layer. If Analytics is empty the headline is No credits yet. and the action is Open Flock. Tap Settings for Export CSV, then Share the yard sheet if the export finishes, Contact Clutchkeep, Pullet then Layer, Haptics, Re-run onboarding, and Reset all data. Reset asks Erase every hen, credit, mash, and dose? Confirm with Reset all data or Keep the yard book.
+
+Hens, credits, mash, and doses stay on this device. Contact Clutchkeep opens the support page.
+
+The same screens appear in every region. Number formatting follows the device language.
+
+No licence or regulated-industry paperwork applies. This is a personal backyard log, not a veterinary or farm-compliance product.
+
+Health score and Dose notes are a personal log only and give no recommendations.

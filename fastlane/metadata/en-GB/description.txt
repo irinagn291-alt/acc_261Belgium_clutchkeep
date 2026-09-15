@@ -1,0 +1,12 @@
+Clutchkeep is a yard book for back-garden keepers with named hens. Tap a nest on the roost to log one egg. There is no flock-size field.
+
+• Flock is the roost. Add a hen by name. She sits as a Pullet until her first Credit.
+• Tap a hen to write one Credit. The first Credit writes a LayMark and she becomes a Layer.
+• Production shows Credits, Eggs / Layer, LayMarks and a 7-day predict folded from credits.
+• Mash logs Kilograms and Cost, then Cost / egg and FCR.
+• Dose notes a health event on a hen and shows Health score, Notes and Culls.
+• Touch and hold a hen and choose Cull from the roost to drop her from tomorrow's Layer count.
+• Analytics lists Yield, Cost versus yield, Health and Pullet then Layer.
+• Settings holds Export CSV, Share the yard sheet, Contact Clutchkeep, Pullet then Layer, Haptics, Re-run onboarding and Reset all data.
+
+For small keepers who need a roost, not farm software. Everything stays on this device.

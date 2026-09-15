@@ -1,0 +1,8 @@
+Version 1.0 is the first release of Clutchkeep.
+
+• Onboarding pages: The roost is the yard book, Tap a hen, write a credit, and Pullet, then Layer.
+• Flock roost of named hens. Add a hen. Tap a hen to log an egg.
+• Pullet then Layer: the first Credit writes a LayMark.
+• Production, Mash and Dose on the Flock pager.
+• Analytics for Yield, Cost versus yield, Health, Eggs / Layer, Cost per egg, FCR and 7-day predict.
+• Settings for Export CSV, Contact Clutchkeep, Haptics, Re-run onboarding and Reset all data.

@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A47A338791B9073700DBE3 /* RoostChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9784761E75595EDC7942FB8 /* RoostChrome.swift */; };
+		10A9B551FD70952A01FE217A /* DoseInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530385A5FA16BAC9D74FA1FC /* DoseInk.swift */; };
+		13B7562C797A807D9FC350FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C6AD7D68C31F30D82A183 /* AppDelegate.swift */; };
+		191D73E48B51454F36718F5B /* YieldBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7EF54A881AC317437977CF /* YieldBoard.swift */; };
+		1ABB09210F929B0F11892D43 /* RoostLaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB74AB6E68ED9D9D5F078C44 /* RoostLaneTests.swift */; };
+		20BBFAD1604D25B208F8D53B /* RoostDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166AD1DC3DB7A3D8B2A286AB /* RoostDay.swift */; };
+		225103A9F80BBE8520B2C80B /* MashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853387C78FAA210827B8F958 /* MashBoard.swift */; };
+		25921A8CF772556F3ACC1697 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B6D5C7A1E31F2CD69B9BD2E1 /* Alamofire */; };
+		2B70EBAB04E22EBB2CB500ED /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10AE9E44CF21928364856C /* Credit.swift */; };
+		3150170923E1D2734903E8F1 /* LayMarkInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246497CD4C595663411D06B8 /* LayMarkInk.swift */; };
+		3558A1F150705C7FA591EEC4 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E49A19BAE5294BB47B387 /* FamilyInvariantTests.swift */; };
+		3A32E0732934FA2629FAC4D8 /* RoostWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE527B6E3AE736FDF23E6A /* RoostWalk.swift */; };
+		48D50234EFD403D269BBA808 /* HenSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3491A54619EC169B6125CA7D /* HenSeat.swift */; };
+		4ADB16B9F0DBBA90D5CA9D44 /* DoseBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B68FFC4344CF74E554F16 /* DoseBoard.swift */; };
+		4E611DFA4C32591F04889FA0 /* RoostShelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9460C7FB991AD5535FAFCC /* RoostShelfTests.swift */; };
+		4F45F512DEC8CA5A7C38DAFB /* YardPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3636610CC5456605C0C29 /* YardPane.swift */; };
+		52DAC06C4993541EF6C0FA2E /* RoostClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FECA6324333484E30711CD /* RoostClientTests.swift */; };
+		5541D7572BCA463D8B8ABCD8 /* RoostWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C175A3189962A0CEEE0D37C7 /* RoostWatch.swift */; };
+		5FE323CD1395F5E5D3902158 /* RoostYard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CEF2F4B4F7DD1CD517C694 /* RoostYard.swift */; };
+		622BB45B834535E4A53409F0 /* YardSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63082DD791F9107AC829B428 /* YardSeed.swift */; };
+		6615CD1DE081E8BC2A911341 /* CreditInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757968F13D9F0BD4CD92D894 /* CreditInk.swift */; };
+		68C856CE283A99DAE2114D70 /* LayerLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80151BC5E9DF181F4BFD8123 /* LayerLedger.swift */; };
+		70416CC06A187FAE90EE3AD5 /* YardBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203DF789CCBE6E82BC734FA /* YardBook.swift */; };
+		80513F25239A7738A8EB0478 /* RoostWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F91C805E5C84D2976D6679 /* RoostWatchTests.swift */; };
+		85F3707B4516AE5644B2D008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087CC9EAA1F75195BC71ECC0 /* Assets.xcassets */; };
+		898F62D5F5729276F2E6BAB7 /* RoostShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81EF8608C246FD4D0268C9F /* RoostShelf.swift */; };
+		92C1208A1D50803D7B3D8BA9 /* PulletFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A3492938763CA29100B8DE /* PulletFlip.swift */; };
+		96F0C368A31DBE8F7E7BD773 /* Mash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E12771EA2744D67C7AE650 /* Mash.swift */; };
+		9950CEEA4E2625E1AADDBC3F /* RoostRail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACDD455E1D442749295BF13 /* RoostRail.swift */; };
+		9E7AE12BFE9C01A59C44D71D /* RoostFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9615FADF46293C5E80898 /* RoostFigures.swift */; };
+		A08EB25E3E68C5FB303DFAAC /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7B96DE12196CE31FFB9B8 /* APIConfig.swift */; };
+		A0B0732936617B7435B8D51A /* YardSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E226832589668A3D36A60 /* YardSheet.swift */; };
+		A0EE06F60AB4EAE6D825C8BD /* RoostPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4B601805A1BD040AC7580 /* RoostPlate.swift */; };
+		A71BF6974DE4AFD8DC815436 /* CreditVerbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B81C0C6165BB86126ACA9E0 /* CreditVerbTests.swift */; };
+		A7D2962A2362D10F690CD0BA /* RoostStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A84171C46021BC95C325C7 /* RoostStore.swift */; };
+		AE3EE45D952EA308C3D24BDB /* ClutchkeepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EF34FAED0E0CB5074879 /* ClutchkeepApp.swift */; };
+		B24D0409374829AAF55FF54C /* NestCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD7E3529A69BB9BA386A1B /* NestCup.swift */; };
+		B321F70CCEFF9D1732D42128 /* RoostFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142CDA0DC666DA23049FAC3B /* RoostFault.swift */; };
+		B7539C81C83DA7E2DBA9390E /* RoostCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4AF7C60339109CD92F2D71 /* RoostCodec.swift */; };
+		B77C018EECDBC4385142F9A3 /* LayMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3110B0FC7B82EC8C62018 /* LayMark.swift */; };
+		BEC5EB9A6177ED6EAACF4FBA /* ClutchkeepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E841773EC7767E001F09FF57 /* ClutchkeepTests.swift */; };
+		BFFF6B1F96CFF88D5C1D6A53 /* RoostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC638ED66772EEBE02AB8EC /* RoostClient.swift */; };
+		D9E012E9FF4E1C4F51787DCF /* YardHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8098120850388C889FAB2AF /* YardHouse.swift */; };
+		DBF0208514B081DE88251186 /* MashInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20742C9C298E5D4EB6CA9D7 /* MashInk.swift */; };
+		DCA75A5E4D5A68EEA5FDB8F7 /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCDFDFF73F76B012F91738 /* Dose.swift */; };
+		DD94FAC4863ECDD4AB4FD7B3 /* RoostInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E7FF391AD066D49A2D5657 /* RoostInk.swift */; };
+		DF97FD762E492B26A5C845DF /* RoostLane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAD50B2314EA7C12155346 /* RoostLane.swift */; };
+		E0E953BC3F6089965244CD4C /* LayBead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0495F6D8B585256978238C /* LayBead.swift */; };
+		E474D924E78710FDC2D25C51 /* RoostDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302C65E77DDEB6C4D5F54E77 /* RoostDates.swift */; };
+		E662BBA18354BA9D434E55F3 /* NestRoost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50A5592EC0D23190E1F641 /* NestRoost.swift */; };
+		F1FD45F23C438849C021043F /* RoostFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1720A6FE60189A7ACB674704 /* RoostFace.swift */; };
+		F5C8FF232D0F5AB44610C6D4 /* RoostDune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5EC5CDDC439FE4DEED20E5 /* RoostDune.swift */; };
+		F7AF2B40B22C99D1FD163D1D /* Hen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5980D75A61BD92F310CB43 /* Hen.swift */; };
+		FEE38115840DBBD092D744AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C38DD9EE38D9D18179077D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F1C70028FBEBE85A82062C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2396CEB6AB98629E5824862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 414393A2FE4483B50D0B9B7C;
+			remoteInfo = Clutchkeep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087CC9EAA1F75195BC71ECC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1203DF789CCBE6E82BC734FA /* YardBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardBook.swift; sourceTree = "<group>"; };
+		13C38DD9EE38D9D18179077D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		142CDA0DC666DA23049FAC3B /* RoostFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostFault.swift; sourceTree = "<group>"; };
+		166AD1DC3DB7A3D8B2A286AB /* RoostDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostDay.swift; sourceTree = "<group>"; };
+		1720A6FE60189A7ACB674704 /* RoostFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostFace.swift; sourceTree = "<group>"; };
+		1B81C0C6165BB86126ACA9E0 /* CreditVerbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditVerbTests.swift; sourceTree = "<group>"; };
+		1F1E4DC65FF2B82F0ED114BE /* ClutchkeepTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ClutchkeepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		246497CD4C595663411D06B8 /* LayMarkInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayMarkInk.swift; sourceTree = "<group>"; };
+		28A3636610CC5456605C0C29 /* YardPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardPane.swift; sourceTree = "<group>"; };
+		302C65E77DDEB6C4D5F54E77 /* RoostDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostDates.swift; sourceTree = "<group>"; };
+		31F91C805E5C84D2976D6679 /* RoostWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostWatchTests.swift; sourceTree = "<group>"; };
+		3491A54619EC169B6125CA7D /* HenSeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HenSeat.swift; sourceTree = "<group>"; };
+		3817B5B4C99338BA4FC06FC3 /* Clutchkeep.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Clutchkeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5EC5CDDC439FE4DEED20E5 /* RoostDune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostDune.swift; sourceTree = "<group>"; };
+		3F0495F6D8B585256978238C /* LayBead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayBead.swift; sourceTree = "<group>"; };
+		43BAD50B2314EA7C12155346 /* RoostLane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostLane.swift; sourceTree = "<group>"; };
+		456B68FFC4344CF74E554F16 /* DoseBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseBoard.swift; sourceTree = "<group>"; };
+		4ACDD455E1D442749295BF13 /* RoostRail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostRail.swift; sourceTree = "<group>"; };
+		530385A5FA16BAC9D74FA1FC /* DoseInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseInk.swift; sourceTree = "<group>"; };
+		5C5980D75A61BD92F310CB43 /* Hen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hen.swift; sourceTree = "<group>"; };
+		5CA7B96DE12196CE31FFB9B8 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		63082DD791F9107AC829B428 /* YardSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardSeed.swift; sourceTree = "<group>"; };
+		66A3492938763CA29100B8DE /* PulletFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulletFlip.swift; sourceTree = "<group>"; };
+		6CA9615FADF46293C5E80898 /* RoostFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostFigures.swift; sourceTree = "<group>"; };
+		73D3110B0FC7B82EC8C62018 /* LayMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayMark.swift; sourceTree = "<group>"; };
+		757968F13D9F0BD4CD92D894 /* CreditInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditInk.swift; sourceTree = "<group>"; };
+		75B4B601805A1BD040AC7580 /* RoostPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostPlate.swift; sourceTree = "<group>"; };
+		80151BC5E9DF181F4BFD8123 /* LayerLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLedger.swift; sourceTree = "<group>"; };
+		853387C78FAA210827B8F958 /* MashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashBoard.swift; sourceTree = "<group>"; };
+		8E4E49A19BAE5294BB47B387 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		8F10AE9E44CF21928364856C /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		9ACE527B6E3AE736FDF23E6A /* RoostWalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostWalk.swift; sourceTree = "<group>"; };
+		ABC638ED66772EEBE02AB8EC /* RoostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostClient.swift; sourceTree = "<group>"; };
+		AF50A5592EC0D23190E1F641 /* NestRoost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestRoost.swift; sourceTree = "<group>"; };
+		B4A84171C46021BC95C325C7 /* RoostStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostStore.swift; sourceTree = "<group>"; };
+		B569EF34FAED0E0CB5074879 /* ClutchkeepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClutchkeepApp.swift; sourceTree = "<group>"; };
+		B7CEF2F4B4F7DD1CD517C694 /* RoostYard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostYard.swift; sourceTree = "<group>"; };
+		B9FECA6324333484E30711CD /* RoostClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostClientTests.swift; sourceTree = "<group>"; };
+		BB74AB6E68ED9D9D5F078C44 /* RoostLaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostLaneTests.swift; sourceTree = "<group>"; };
+		C175A3189962A0CEEE0D37C7 /* RoostWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostWatch.swift; sourceTree = "<group>"; };
+		C5E7FF391AD066D49A2D5657 /* RoostInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostInk.swift; sourceTree = "<group>"; };
+		CD7EF54A881AC317437977CF /* YieldBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YieldBoard.swift; sourceTree = "<group>"; };
+		CE0C6AD7D68C31F30D82A183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF4AF7C60339109CD92F2D71 /* RoostCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostCodec.swift; sourceTree = "<group>"; };
+		D03E226832589668A3D36A60 /* YardSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardSheet.swift; sourceTree = "<group>"; };
+		D2FCDFDFF73F76B012F91738 /* Dose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dose.swift; sourceTree = "<group>"; };
+		D6E12771EA2744D67C7AE650 /* Mash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mash.swift; sourceTree = "<group>"; };
+		E8098120850388C889FAB2AF /* YardHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardHouse.swift; sourceTree = "<group>"; };
+		E81EF8608C246FD4D0268C9F /* RoostShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostShelf.swift; sourceTree = "<group>"; };
+		E841773EC7767E001F09FF57 /* ClutchkeepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClutchkeepTests.swift; sourceTree = "<group>"; };
+		ECAD7E3529A69BB9BA386A1B /* NestCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestCup.swift; sourceTree = "<group>"; };
+		F20742C9C298E5D4EB6CA9D7 /* MashInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashInk.swift; sourceTree = "<group>"; };
+		F9784761E75595EDC7942FB8 /* RoostChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostChrome.swift; sourceTree = "<group>"; };
+		FE9460C7FB991AD5535FAFCC /* RoostShelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoostShelfTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		705B074C88413744BAD225B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25921A8CF772556F3ACC1697 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E515991C449E92B26424CF1 /* Clutchkeep */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7B96DE12196CE31FFB9B8 /* APIConfig.swift */,
+				CE0C6AD7D68C31F30D82A183 /* AppDelegate.swift */,
+				087CC9EAA1F75195BC71ECC0 /* Assets.xcassets */,
+				B569EF34FAED0E0CB5074879 /* ClutchkeepApp.swift */,
+				13C38DD9EE38D9D18179077D /* ContentView.swift */,
+				B725EAC95A2CD77F253336D0 /* Credit */,
+				D561148069839FDC279C8F4C /* Dose */,
+				6D1A1116EF67A54F04DB435D /* Hen */,
+				9FF73A873BCA736D68D807A5 /* LayMark */,
+				527C29C6401218E97CA650A7 /* Mash */,
+			);
+			path = Clutchkeep;
+			sourceTree = "<group>";
+		};
+		527C29C6401218E97CA650A7 /* Mash */ = {
+			isa = PBXGroup;
+			children = (
+				D6E12771EA2744D67C7AE650 /* Mash.swift */,
+				853387C78FAA210827B8F958 /* MashBoard.swift */,
+				F20742C9C298E5D4EB6CA9D7 /* MashInk.swift */,
+			);
+			path = Mash;
+			sourceTree = "<group>";
+		};
+		684DE90FF32999380B806526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3817B5B4C99338BA4FC06FC3 /* Clutchkeep.app */,
+				1F1E4DC65FF2B82F0ED114BE /* ClutchkeepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1A1116EF67A54F04DB435D /* Hen */ = {
+			isa = PBXGroup;
+			children = (
+				5C5980D75A61BD92F310CB43 /* Hen.swift */,
+				3491A54619EC169B6125CA7D /* HenSeat.swift */,
+				ECAD7E3529A69BB9BA386A1B /* NestCup.swift */,
+				AF50A5592EC0D23190E1F641 /* NestRoost.swift */,
+				F9784761E75595EDC7942FB8 /* RoostChrome.swift */,
+				ABC638ED66772EEBE02AB8EC /* RoostClient.swift */,
+				CF4AF7C60339109CD92F2D71 /* RoostCodec.swift */,
+				166AD1DC3DB7A3D8B2A286AB /* RoostDay.swift */,
+				3C5EC5CDDC439FE4DEED20E5 /* RoostDune.swift */,
+				1720A6FE60189A7ACB674704 /* RoostFace.swift */,
+				142CDA0DC666DA23049FAC3B /* RoostFault.swift */,
+				6CA9615FADF46293C5E80898 /* RoostFigures.swift */,
+				C5E7FF391AD066D49A2D5657 /* RoostInk.swift */,
+				75B4B601805A1BD040AC7580 /* RoostPlate.swift */,
+				4ACDD455E1D442749295BF13 /* RoostRail.swift */,
+				E81EF8608C246FD4D0268C9F /* RoostShelf.swift */,
+				B4A84171C46021BC95C325C7 /* RoostStore.swift */,
+				9ACE527B6E3AE736FDF23E6A /* RoostWalk.swift */,
+				C175A3189962A0CEEE0D37C7 /* RoostWatch.swift */,
+				B7CEF2F4B4F7DD1CD517C694 /* RoostYard.swift */,
+				1203DF789CCBE6E82BC734FA /* YardBook.swift */,
+				E8098120850388C889FAB2AF /* YardHouse.swift */,
+				63082DD791F9107AC829B428 /* YardSeed.swift */,
+				D03E226832589668A3D36A60 /* YardSheet.swift */,
+			);
+			path = Hen;
+			sourceTree = "<group>";
+		};
+		8380A039E94AF952C28ABE52 = {
+			isa = PBXGroup;
+			children = (
+				2E515991C449E92B26424CF1 /* Clutchkeep */,
+				DBC8000C59B9072D9881390A /* ClutchkeepTests */,
+				684DE90FF32999380B806526 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF73A873BCA736D68D807A5 /* LayMark */ = {
+			isa = PBXGroup;
+			children = (
+				3F0495F6D8B585256978238C /* LayBead.swift */,
+				80151BC5E9DF181F4BFD8123 /* LayerLedger.swift */,
+				73D3110B0FC7B82EC8C62018 /* LayMark.swift */,
+				246497CD4C595663411D06B8 /* LayMarkInk.swift */,
+				66A3492938763CA29100B8DE /* PulletFlip.swift */,
+				43BAD50B2314EA7C12155346 /* RoostLane.swift */,
+			);
+			path = LayMark;
+			sourceTree = "<group>";
+		};
+		B725EAC95A2CD77F253336D0 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				8F10AE9E44CF21928364856C /* Credit.swift */,
+				757968F13D9F0BD4CD92D894 /* CreditInk.swift */,
+				28A3636610CC5456605C0C29 /* YardPane.swift */,
+				CD7EF54A881AC317437977CF /* YieldBoard.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		D561148069839FDC279C8F4C /* Dose */ = {
+			isa = PBXGroup;
+			children = (
+				D2FCDFDFF73F76B012F91738 /* Dose.swift */,
+				456B68FFC4344CF74E554F16 /* DoseBoard.swift */,
+				530385A5FA16BAC9D74FA1FC /* DoseInk.swift */,
+			);
+			path = Dose;
+			sourceTree = "<group>";
+		};
+		DBC8000C59B9072D9881390A /* ClutchkeepTests */ = {
+			isa = PBXGroup;
+			children = (
+				E841773EC7767E001F09FF57 /* ClutchkeepTests.swift */,
+				1B81C0C6165BB86126ACA9E0 /* CreditVerbTests.swift */,
+				8E4E49A19BAE5294BB47B387 /* FamilyInvariantTests.swift */,
+				B9FECA6324333484E30711CD /* RoostClientTests.swift */,
+				302C65E77DDEB6C4D5F54E77 /* RoostDates.swift */,
+				BB74AB6E68ED9D9D5F078C44 /* RoostLaneTests.swift */,
+				FE9460C7FB991AD5535FAFCC /* RoostShelfTests.swift */,
+				31F91C805E5C84D2976D6679 /* RoostWatchTests.swift */,
+			);
+			path = ClutchkeepTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414393A2FE4483B50D0B9B7C /* Clutchkeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFE51E6B2B299208B380324 /* Build configuration list for PBXNativeTarget "Clutchkeep" */;
+			buildPhases = (
+				9E86EEFA7DD56821D23189A4 /* Sources */,
+				CEF19F7F147EBE7E50E41FD5 /* Resources */,
+				705B074C88413744BAD225B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clutchkeep;
+			packageProductDependencies = (
+				B6D5C7A1E31F2CD69B9BD2E1 /* Alamofire */,
+			);
+			productName = Clutchkeep;
+			productReference = 3817B5B4C99338BA4FC06FC3 /* Clutchkeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66BBCE392A61107A934C0327 /* ClutchkeepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E512C447D5F5924BB8A4BF0 /* Build configuration list for PBXNativeTarget "ClutchkeepTests" */;
+			buildPhases = (
+				0EBB7EC03824D5094F9C775B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B20D702B84F51C79E4E5654 /* PBXTargetDependency */,
+			);
+			name = ClutchkeepTests;
+			packageProductDependencies = (
+			);
+			productName = ClutchkeepTests;
+			productReference = 1F1E4DC65FF2B82F0ED114BE /* ClutchkeepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2396CEB6AB98629E5824862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					414393A2FE4483B50D0B9B7C = {
+						ProvisioningStyle = Automatic;
+					};
+					66BBCE392A61107A934C0327 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C283C86F96AB700D1510F834 /* Build configuration list for PBXProject "Clutchkeep" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8380A039E94AF952C28ABE52;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3231E795C44DCDD1894673D9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 684DE90FF32999380B806526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414393A2FE4483B50D0B9B7C /* Clutchkeep */,
+				66BBCE392A61107A934C0327 /* ClutchkeepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF19F7F147EBE7E50E41FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F3707B4516AE5644B2D008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBB7EC03824D5094F9C775B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC5EB9A6177ED6EAACF4FBA /* ClutchkeepTests.swift in Sources */,
+				A71BF6974DE4AFD8DC815436 /* CreditVerbTests.swift in Sources */,
+				3558A1F150705C7FA591EEC4 /* FamilyInvariantTests.swift in Sources */,
+				52DAC06C4993541EF6C0FA2E /* RoostClientTests.swift in Sources */,
+				E474D924E78710FDC2D25C51 /* RoostDates.swift in Sources */,
+				1ABB09210F929B0F11892D43 /* RoostLaneTests.swift in Sources */,
+				4E611DFA4C32591F04889FA0 /* RoostShelfTests.swift in Sources */,
+				80513F25239A7738A8EB0478 /* RoostWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E86EEFA7DD56821D23189A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08EB25E3E68C5FB303DFAAC /* APIConfig.swift in Sources */,
+				13B7562C797A807D9FC350FA /* AppDelegate.swift in Sources */,
+				AE3EE45D952EA308C3D24BDB /* ClutchkeepApp.swift in Sources */,
+				FEE38115840DBBD092D744AF /* ContentView.swift in Sources */,
+				2B70EBAB04E22EBB2CB500ED /* Credit.swift in Sources */,
+				6615CD1DE081E8BC2A911341 /* CreditInk.swift in Sources */,
+				DCA75A5E4D5A68EEA5FDB8F7 /* Dose.swift in Sources */,
+				4ADB16B9F0DBBA90D5CA9D44 /* DoseBoard.swift in Sources */,
+				10A9B551FD70952A01FE217A /* DoseInk.swift in Sources */,
+				F7AF2B40B22C99D1FD163D1D /* Hen.swift in Sources */,
+				48D50234EFD403D269BBA808 /* HenSeat.swift in Sources */,
+				E0E953BC3F6089965244CD4C /* LayBead.swift in Sources */,
+				B77C018EECDBC4385142F9A3 /* LayMark.swift in Sources */,
+				3150170923E1D2734903E8F1 /* LayMarkInk.swift in Sources */,
+				68C856CE283A99DAE2114D70 /* LayerLedger.swift in Sources */,
+				96F0C368A31DBE8F7E7BD773 /* Mash.swift in Sources */,
+				225103A9F80BBE8520B2C80B /* MashBoard.swift in Sources */,
+				DBF0208514B081DE88251186 /* MashInk.swift in Sources */,
+				B24D0409374829AAF55FF54C /* NestCup.swift in Sources */,
+				E662BBA18354BA9D434E55F3 /* NestRoost.swift in Sources */,
+				92C1208A1D50803D7B3D8BA9 /* PulletFlip.swift in Sources */,
+				03A47A338791B9073700DBE3 /* RoostChrome.swift in Sources */,
+				BFFF6B1F96CFF88D5C1D6A53 /* RoostClient.swift in Sources */,
+				B7539C81C83DA7E2DBA9390E /* RoostCodec.swift in Sources */,
+				20BBFAD1604D25B208F8D53B /* RoostDay.swift in Sources */,
+				F5C8FF232D0F5AB44610C6D4 /* RoostDune.swift in Sources */,
+				F1FD45F23C438849C021043F /* RoostFace.swift in Sources */,
+				B321F70CCEFF9D1732D42128 /* RoostFault.swift in Sources */,
+				9E7AE12BFE9C01A59C44D71D /* RoostFigures.swift in Sources */,
+				DD94FAC4863ECDD4AB4FD7B3 /* RoostInk.swift in Sources */,
+				DF97FD762E492B26A5C845DF /* RoostLane.swift in Sources */,
+				A0EE06F60AB4EAE6D825C8BD /* RoostPlate.swift in Sources */,
+				9950CEEA4E2625E1AADDBC3F /* RoostRail.swift in Sources */,
+				898F62D5F5729276F2E6BAB7 /* RoostShelf.swift in Sources */,
+				A7D2962A2362D10F690CD0BA /* RoostStore.swift in Sources */,
+				3A32E0732934FA2629FAC4D8 /* RoostWalk.swift in Sources */,
+				5541D7572BCA463D8B8ABCD8 /* RoostWatch.swift in Sources */,
+				5FE323CD1395F5E5D3902158 /* RoostYard.swift in Sources */,
+				70416CC06A187FAE90EE3AD5 /* YardBook.swift in Sources */,
+				D9E012E9FF4E1C4F51787DCF /* YardHouse.swift in Sources */,
+				4F45F512DEC8CA5A7C38DAFB /* YardPane.swift in Sources */,
+				622BB45B834535E4A53409F0 /* YardSeed.swift in Sources */,
+				A0B0732936617B7435B8D51A /* YardSheet.swift in Sources */,
+				191D73E48B51454F36718F5B /* YieldBoard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B20D702B84F51C79E4E5654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 414393A2FE4483B50D0B9B7C /* Clutchkeep */;
+			targetProxy = 34F1C70028FBEBE85A82062C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BE7EB76FD1551CD1E38D101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clutchkeep.roost.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clutchkeep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clutchkeep";
+			};
+			name = Debug;
+		};
+		2E57A194FFEEEE2FFFAD1F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		33906DED499BA4E97E755270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clutchkeep.roost.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clutchkeep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clutchkeep";
+			};
+			name = Release;
+		};
+		89D8E476C5BDE9227DFCB8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Clutchkeep;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clutchkeep.roost;
+				PRODUCT_NAME = Clutchkeep;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7E3F69E788430751495D05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Clutchkeep;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clutchkeep.roost;
+				PRODUCT_NAME = Clutchkeep;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F06A398F7A06581DDFD2199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E512C447D5F5924BB8A4BF0 /* Build configuration list for PBXNativeTarget "ClutchkeepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE7EB76FD1551CD1E38D101 /* Debug */,
+				33906DED499BA4E97E755270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C283C86F96AB700D1510F834 /* Build configuration list for PBXProject "Clutchkeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E57A194FFEEEE2FFFAD1F6A /* Debug */,
+				F06A398F7A06581DDFD2199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEFE51E6B2B299208B380324 /* Build configuration list for PBXNativeTarget "Clutchkeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D8E476C5BDE9227DFCB8C3 /* Debug */,
+				C7E3F69E788430751495D05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3231E795C44DCDD1894673D9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6D5C7A1E31F2CD69B9BD2E1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3231E795C44DCDD1894673D9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D2396CEB6AB98629E5824862 /* Project object */;
+}
