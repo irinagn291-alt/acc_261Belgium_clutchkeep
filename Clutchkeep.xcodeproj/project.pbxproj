@@ -550,7 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Clutchkeep;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -565,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.clutchkeep.roost;
 				PRODUCT_NAME = Clutchkeep;
 				SDKROOT = iphoneos;
@@ -582,7 +582,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Clutchkeep;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -597,7 +597,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.clutchkeep.roost;
 				PRODUCT_NAME = Clutchkeep;
 				SDKROOT = iphoneos;
@@ -703,7 +703,7 @@
 			repositoryURL = "https://github.com/ymvmj7dsyy-stack/Alamofire";
 			requirement = {
 				kind = revision;
-				revision = 8a974e1e0961fe3134df593e2d7d67db3d4c2ad3;
+				revision = 3ea8e93ec37a3ae5f255afb529ef20f438dd1903;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
